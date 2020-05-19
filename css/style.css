@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap');
+body{
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	color: #212529;
+	text-align: center;
+	background-color: rgba(244,244,241,1.00);
+}
+:root{
+	--azul:#41c1fe;
+	--gris:#f3f3f3;
+	--oscuro:#383838;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+.titulo{
+	color: #3c3838;
+}
+.subtitulo{
+	color: #888585;
+}
+.monsetrrat{
+	font-family: 'Montserrat', sans-serif;
+}
+.oswald{
+	font-family: 'Oswald', sans-serif;
+}
+.seccion{
+	padding: 60px 0;
+}
+.btn-default{
+	background-color: var(--azul);
+	color: #fff;
+	font-size: 20px;
+	font-weight: 900;
+	padding: 10px 20px;
+	border-radius: 35px;
+}
+#first{
+	background-image: url("../img/slider1_slide2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 25%;
+	color: #fff;
+}
+#first h1{
+	font-size: 100px;
+	font-weight: 900;
+}
+#first p{
+	font-size: 16px;
+	font-weight: 600;
+	padding-bottom: 140px;
+}
+#Sales article{
+}
+#Sales article.ichi{
+	background-image: url("../img/men-running.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 9%;
+}
+#Sales article.ni{
+	background-image: url("../img/women-runnig.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 9%;
+}
+#Sales article.san{
+	background-color: var(--azul);
+	padding: 9%;
+}
+#Sales a{
+	text-align: left;
+	color: #fff;
+	font-size: 40px;
+	font-weight: 700;
+}
+#shop h1{
+	font-size: 60px;
+	font-weight: 700;
+	padding-bottom: 50px;
+}
+.shop{
+	background-color: #fff;
+	padding-bottom: 20px;
+}
+#shop h4{
+	padding: 35px 0;
+	font-size: 20px;
+	font-weight: 600;
+}
+#shop h3{
+	font-weight: 900;
+}
+
+#shoe h2{ 
+	font-weight: 700;
+	font-size: 40px;
+}
+span{
+	color: var(--azul);
+}
+#shoe{
+	background-image: url("../img/bg_action.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding:55px;
+}
+#shoe .btn-default{
+	font-size: 10px!important;
+	margin-left: 10px;
+}
+#roun{
+	color: #fff;
+}
+#roun .uno{
+	background-image: url("../img/service-1-370x330.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 45%;
+}
+#roun .dos{
+	background-image: url("../img/service-2-1170x658.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 45%;
+}
+#roun .tres{
+	background-image: url("../img/service-3-1170x658.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 45%;
+}
+#roun .texto{
+	position: absolute;
+	z-index: 9999;
+	bottom: 90px;
+	left: 50px
+}
+#roun h4{
+	font-weight: 700;
+	font-size: 18px;
+}
+
+
+
+
+
